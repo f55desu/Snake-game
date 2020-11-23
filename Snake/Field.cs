@@ -10,32 +10,94 @@ namespace Snake
 {
 	public partial class Field : Form
 	{
-        private int _width = 800;
-        private int _height = 800;
+        private int width = 520;
+        private int height = 420;
+        private int dirX, dirY;
+        private int score = 0; // счёт 
+        private PictureBox fruit; // картинка фрукта
+        private int sizeOfSides = 20;
 
-		public Field()
+        public Field()
 		{
-			InitializeComponent();
-            this.Width = _width;
-            this.Height = _height;
+            InitializeComponent();
+            Generate_borders();
+            timer.Tick += new EventHandler(Update);
+            timer.Start();
             this.KeyDown += new KeyEventHandler(OKP);
+        }
+
+        private void Generate_borders()
+        {
+            PictureBox BorderTop = new PictureBox();
+            BorderTop.BackColor = Color.Black;
+            BorderTop.Location = new Point(width - 420, 0);
+            BorderTop.Size = new Size(width - 100, 20);
+            this.Controls.Add(BorderTop);
+
+            PictureBox BorderBottom = new PictureBox();
+            BorderBottom.BackColor = Color.Black;
+            BorderBottom.Location = new Point(width - 420, height - 20);
+            BorderBottom.Size = new Size(width - 100, 20);
+            this.Controls.Add(BorderBottom);
+
+            PictureBox BorderLeft = new PictureBox();
+            BorderLeft.BackColor = Color.Black;
+            BorderLeft.Location = new Point(width - 420, 0);
+            BorderLeft.Size = new Size(20, height);
+            this.Controls.Add(BorderLeft);
+
+            PictureBox BorderRight = new PictureBox();
+            BorderRight.BackColor = Color.Black;
+            BorderRight.Location = new Point(width - 20, 0);
+            BorderRight.Size = new Size(20, height);
+            this.Controls.Add(BorderRight);
+        }
+
+        private void Generate_Fruit()
+        {
+            // генерация фрукта
 		}
 
-        private void OKP(object sender, KeyEventArgs e)
+        private void Update(Object myObject, EventArgs eventsArgs)
+        {
+            Head.Location = new Point(Head.Location.X + dirX * sizeOfSides, Head.Location.Y + dirY * sizeOfSides);
+        }
+
+		private void Score_Label_Click(object sender, EventArgs e)
+		{
+            //возможно будет вестись подсчёт очков
+            MessageBox.Show("Здесь будет таблица рекордов", "В разработке...", MessageBoxButtons.OK, MessageBoxIcon.Information);
+		}
+
+		private void OKP(object sender, KeyEventArgs e)
         {
             switch (e.KeyCode.ToString())
             {
                 case "Right":
-                    Head.Location = new Point(Head.Location.X + 20, Head.Location.Y);
+                    dirX = 1;
+                    dirY = 0;
                     break;
                 case "Left":
-                    Head.Location = new Point(Head.Location.X - 20, Head.Location.Y);
+                    dirX = -1;
+                    dirY = 0;
                     break;
                 case "Up":
-                    Head.Location = new Point(Head.Location.X, Head.Location.Y - 20);
+                    dirY = -1;
+                    dirX = 0;
                     break;
                 case "Down":
-                    Head.Location = new Point(Head.Location.X, Head.Location.Y + 20);
+                    dirY = 1;
+                    dirX = 0;
+                    break;
+                case "Space":
+                    timer.Stop();
+                    MessageBox.Show("Press Space to continue.", "Game paused", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    timer.Start();
+                    break;
+                case "Escape":
+                    timer.Stop();
+                    MessageBox.Show("Press Space to continue.", "Game paused", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    timer.Start();
                     break;
             }
 

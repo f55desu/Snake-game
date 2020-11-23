@@ -31,8 +31,11 @@ namespace Snake
 		/// </summary>
 		private void InitializeComponent()
 		{
+			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Field));
 			this.Head = new System.Windows.Forms.PictureBox();
+			this.timer = new System.Windows.Forms.Timer(this.components);
+			this.Score_Label = new System.Windows.Forms.Label();
 			((System.ComponentModel.ISupportInitialize)(this.Head)).BeginInit();
 			this.SuspendLayout();
 			// 
@@ -45,21 +48,45 @@ namespace Snake
 			this.Head.TabIndex = 0;
 			this.Head.TabStop = false;
 			// 
+			// timer
+			// 
+			this.timer.Interval = 300;
+			// 
+			// Score_Label
+			// 
+			this.Score_Label.AutoSize = true;
+			this.Score_Label.BackColor = System.Drawing.Color.GreenYellow;
+			this.Score_Label.Font = new System.Drawing.Font("Sawarabi Mincho", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.Score_Label.Location = new System.Drawing.Point(12, 9);
+			this.Score_Label.Name = "Score_Label";
+			this.Score_Label.Size = new System.Drawing.Size(64, 23);
+			this.Score_Label.TabIndex = 1;
+			this.Score_Label.Text = "Score:";
+			this.Score_Label.Click += new System.EventHandler(this.Score_Label_Click);
+			// 
 			// Field
 			// 
+			this.AllowDrop = true;
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(520, 420);
+			this.BackColor = System.Drawing.Color.GreenYellow;
+			this.ClientSize = new System.Drawing.Size(517, 413);
+			this.Controls.Add(this.Score_Label);
+			this.Controls.Add(this.Head);
+			this.MaximizeBox = false;
 			this.Name = "Field";
-			this.Text = "Form1";
-			this.Controls.Add(Head);
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+			this.Text = "Snake Game";
 			((System.ComponentModel.ISupportInitialize)(this.Head)).EndInit();
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
 		#endregion
 
 		private System.Windows.Forms.PictureBox Head;
+		private System.Windows.Forms.Timer timer;
+		private System.Windows.Forms.Label Score_Label;
 	}
 }

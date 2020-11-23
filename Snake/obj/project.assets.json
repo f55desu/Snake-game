@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\f55do\\source\\repos\\Snake\\Snake\\Snake.csproj",
+      "projectUniqueName": "C:\\Users\\f55do\\Source\\Repos\\Snake-game\\Snake\\Snake.csproj",
       "projectName": "Snake",
-      "projectPath": "C:\\Users\\f55do\\source\\repos\\Snake\\Snake\\Snake.csproj",
+      "projectPath": "C:\\Users\\f55do\\Source\\Repos\\Snake-game\\Snake\\Snake.csproj",
       "packagesPath": "C:\\Users\\f55do\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\f55do\\source\\repos\\Snake\\Snake\\obj\\",
+      "outputPath": "C:\\Users\\f55do\\Source\\Repos\\Snake-game\\Snake\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\f55do\\AppData\\Roaming\\NuGet\\NuGet.Config",
