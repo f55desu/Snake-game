@@ -10,6 +10,7 @@ namespace Snake
 {
 	public partial class Field : Form
 	{
+        private int rI, rJ;
         private int width = 520;
         private int height = 420;
         private int dirX, dirY;
@@ -21,6 +22,7 @@ namespace Snake
 		{
             InitializeComponent();
             Generate_borders();
+            Generate_Fruit();
             timer.Tick += new EventHandler(Update);
             timer.Start();
             this.KeyDown += new KeyEventHandler(OKP);
@@ -56,7 +58,22 @@ namespace Snake
         private void Generate_Fruit()
         {
             // генерация фрукта
-		}
+            fruit = new PictureBox();
+            fruit.BackColor = Color.Red;
+            fruit.Size = new Size(sizeOfSides, sizeOfSides);
+
+            Random r = new Random();
+            rI = r.Next(width - 420 + sizeOfSides, width - sizeOfSides);
+            int tempI = rI % sizeOfSides;
+            rI -= tempI;
+            rJ = r.Next(sizeOfSides, height - sizeOfSides);
+            int tempJ = rJ % sizeOfSides;
+            rJ -= tempJ;
+            rI++;
+            rJ++;
+            fruit.Location = new Point(rI, rJ);
+            this.Controls.Add(fruit);
+        }
 
         private void Update(Object myObject, EventArgs eventsArgs)
         {

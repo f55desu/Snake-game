@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\f55do\\source\\repos\\Snake-game\\Snake\\Snake.csproj": {}
+    "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\f55do\\source\\repos\\Snake-game\\Snake\\Snake.csproj": {
+    "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\f55do\\source\\repos\\Snake-game\\Snake\\Snake.csproj",
+        "projectUniqueName": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "C:\\Users\\f55do\\source\\repos\\Snake-game\\Snake\\Snake.csproj",
-        "packagesPath": "C:\\Users\\f55do\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\f55do\\source\\repos\\Snake-game\\Snake\\obj\\",
+        "projectPath": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj",
+        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\f55do\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +55,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

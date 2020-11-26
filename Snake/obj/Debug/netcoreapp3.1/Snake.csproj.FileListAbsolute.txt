@@ -30,3 +30,19 @@ C:\Users\f55do\Source\Repos\Snake-game\Snake\obj\Debug\netcoreapp3.1\Snake.cspro
 C:\Users\f55do\Source\Repos\Snake-game\Snake\obj\Debug\netcoreapp3.1\Snake.dll
 C:\Users\f55do\Source\Repos\Snake-game\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
 C:\Users\f55do\Source\Repos\Snake-game\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.exe
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.deps.json
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.json
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.runtimeconfig.dev.json
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\bin\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.csprojAssemblyReference.cache
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.Field.resources
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.Properties.Resources.resources
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.GenerateResource.cache
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfoInputs.cache
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.AssemblyInfo.cs
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.csproj.CoreCompileInputs.cache
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.dll
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.pdb
+C:\Users\Joel\Desktop\University\Session Winter 2020\Среды визуального программирования\Курсовая\Snake\obj\Debug\netcoreapp3.1\Snake.genruntimeconfig.cache
