@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj": {}
+    "C:\\Users\\admin\\Source\\Repos\\f55desu\\Snake-game\\Snake\\Snake.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj": {
+    "C:\\Users\\admin\\Source\\Repos\\f55desu\\Snake-game\\Snake\\Snake.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Source\\Repos\\f55desu\\Snake-game\\Snake\\Snake.csproj",
         "projectName": "Snake",
-        "projectPath": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\Snake.csproj",
-        "packagesPath": "C:\\Users\\Joel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Joel\\Desktop\\University\\Session Winter 2020\\Среды визуального программирования\\Курсовая\\Snake\\obj\\",
+        "projectPath": "C:\\Users\\admin\\Source\\Repos\\f55desu\\Snake-game\\Snake\\Snake.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Source\\Repos\\f55desu\\Snake-game\\Snake\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Joel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
