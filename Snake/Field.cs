@@ -80,7 +80,14 @@ namespace Snake
             Head.Location = new Point(Head.Location.X + dirX * sizeOfSides, Head.Location.Y + dirY * sizeOfSides);
         }
 
-		private void Score_Label_Click(object sender, EventArgs e)
+        private void Menu_button_Click(object sender, EventArgs e)
+        {
+            Hide();
+            Main_menu mmenu = new Main_menu();
+            mmenu.Show();
+        }
+
+        private void Score_Label_Click(object sender, EventArgs e)
 		{
             //возможно будет вестись подсчёт очков
             MessageBox.Show("Здесь будет таблица рекордов", "В разработке...", MessageBoxButtons.OK, MessageBoxIcon.Information);

@@ -15,9 +15,16 @@ namespace Snake
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void Start_Click(object sender, EventArgs e)
         {
+            Hide();
+            Field run = new Field();
+            run.Show();
+        }
 
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
